@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Contour']
+
+roboflow:
+  workspace: anushka-mathur-ek9pj
+  project: intel_obj
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/anushka-mathur-ek9pj/intel_obj/dataset/2
